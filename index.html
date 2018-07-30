@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <base target="_blank">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>学术导航 - 科研人专属的网址导航</title>
+    <meta name="keywords" content="学术导航,科研导航,科研人,xsdh.org,xsdh,网址导航"/>
+    <meta name="description" content="学术导航，一个专注于服务科研的网址导航。终生不添加任何肉眼可见的弹窗及浮窗等广告，做最纯净的学术导航。"/>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <script type="text/javascript">
+        function input_focus(){
+            document.getElementById("input_focus").className="srch_text srch_text2"
+        }
+        function input_blur(){
+            document.getElementById("input_focus").className="srch_text"
+        }
+    </script>
+</head>
+<body style="background:url(/images/top.jpg)no-repeat 50% -6px" >
+    <div class="container" style=" padding-top: 10px; " >
+        <div class="topnav">
+            <ul>
+                <li><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a> |</li>
+                <li><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a></li>
+            </ul>
+        </div>
+        <script type="text/javascript"language="javascript">
+            function AddFavorite(sURL,sTitle){
+                sURL=encodeURI(sURL);
+                try{
+                    window.external.addFavorite(sURL,sTitle)
+                }
+                catch(e){
+                    try{
+                        window.sidebar.addPanel(sTitle,sURL,"")
+                    }
+                    catch(e){
+                        alert("加入失败，请使用 Ctrl+D 进行添加或手动在浏览器里进行设置！")
+                    }
+                }
+            }
+            function SetHome(url){
+                if(document.all){
+                    document.body.style.behavior='url(#default#homepage)';
+                    document.body.setHomePage(url)
+                }
+                else{
+                    alert("设置失败，请手动在浏览器里进行设置！")
+                }
+            }
+        </script>
+        <div style="padding-left: 1px;margin-top: -35px;">
+            <iframe width="300" scrolling="no" height="50" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&color=%23&icon=1&num=2" ></iframe>
+        </div>
+        <div style=" padding-top: 40px; padding-bottom: 20px; ">
+            <center>
+                <img src="/images/logo.gif" style="padding-bottom: 30px" alt="">
+                <iframe height="110" src="/others/search/index.html" frameborder="0" width="640px" name="iframe_canvas" scrolling="no"></iframe>
+            </center>
+        </div>
+        <div class="clearfix nav_list icon_list">
+            <div class="clearfix title_bar">
+                <span class="fl title">名站导航</span>
+                <div class="fl line_hr"></div>
+                <a class="fl more_nav" href="http://xsdh.org" target="_blank"><span>XSDH.ORG</span></a>
+            </div>
+            <ul class="icon_list">
+                <li><a class="icon_box" href="others/baidu"><img src="/images/sitelogo/baidu.gif" /><span>百 度</span></a></li>
+                <li><a class="icon_box" href="https://www.google.com.hk"><img src="/images/sitelogo/google.gif" /><span>谷歌</span></a></li>
+                <li><a class="icon_box" href="http://cn.bing.com"><img src="/images/sitelogo/bing.gif"/><span>必应</span></a></li>
+                <li><a class="icon_box" href="https://www.sogou.com/"><img src="/images/sitelogo/sougou.gif"/><span>搜狗</span></a></li>
+                <li><a class="icon_box" href="https://www.so.com"><img src="/images/sitelogo/so.gif"/><span>360</span></a></li>
+                <li><a class="icon_box" href="http://xueshu.baidu.com"><img src="/images/sitelogo/baidu.gif"/><span>百度学术</span></a></li>
+                <li><a class="icon_box" href="https://scholar.google.com.hk"><img src="/images/sitelogo/google-scholar.gif"/><span>谷歌学术</span></a></li>
+                <li><a class="icon_box" href="http://www.cnki.net"><img src="/images/sitelogo/cnki.gif"/><span>中国知网</span></a></li>
+                <li><a class="icon_box" href="http://www.wanfangdata.com.cn"><img src="/images/sitelogo/wanfangshuju.gif"/><span>万方数据</span></a></li>
+                <li><a class="icon_box" href="http://www.cqvip.com"><img src="/images/sitelogo/cqvip.gif"/><span>维普网</span></a></li>
+                <li><a class="icon_box" href="https://zh.wikipedia.org"><img src="/images/sitelogo/wiki.gif"/><span>维基百科</span></a></li>
+                <li><a class="icon_box" href="http://www.doc88.com"><img src="/images/sitelogo/doc88.gif"/><span>道客巴巴</span></a></li>
+                <li><a class="icon_box" href="http://www.docin.com"><img src="/images/sitelogo/docin.gif"/><span>豆丁网</span></a></li>
+                <li><a class="icon_box" href="http://dict.cnki.net"><img src="/images/sitelogo/cnki.gif" /><span>翻译助手</span></a></li>
+                <li><a class="icon_box" href="http://muchong.com/bbs"><img src="/images/sitelogo/xiaomuchong.gif"/><span>小木虫</span></a></li>
+                <li><a class="icon_box" href="http://www.sciencenet.cn"><img src="/images/sitelogo/kexuewang.gif"/><span>科学网</span></a></li>
+                <li><a class="icon_box" href="http://isiknowledge.com/wos"><img src="/images/sitelogo/sci.gif"/><span>SCI</span></a></li>
+                <li><a class="icon_box" href="https://www.engineeringvillage.com"><img src="/images/sitelogo/ei.gif"/><span>EI</span></a></li>
+                <li><a class="icon_box" href="http://www.sciencedirect.com"><img src="/images/sitelogo/elsevier.gif"/><span>Elsevier</span></a></li>
+                <li><a class="icon_box" href="http://ieeexplore.ieee.org"><img src="/images/sitelogo/ieee.gif"/><span>IEEE</span></a></li>
+                <li><a class="icon_box" href="https://link.springer.com"><img src="/images/sitelogo/springer.gif"/><span>Springer</span></a></li>
+                <li><a class="icon_box" href="https://arxiv.org"><img src="/images/sitelogo/arxiv.gif"/><span>arXiv</span></a></li>
+                <li><a class="icon_box" href="http://pubs.acs.org"><img src="/images/sitelogo/acs.gif"/><span>ACS</span></a></li>
+                <li><a class="icon_box" href="http://www.sciencemag.org"><img src="/images/sitelogo/science.gif"/><span>Science</span></a></li>
+                <li><a class="icon_box" href="http://www.medsci.cn/sci"><img src="/images/sitelogo/medsci.gif"/><span>影响因子</span></a></li>
+                <li><a class="icon_box" href="https://www.zhihu.com"><img src="/images/sitelogo/zhihu.gif"/><span>知乎</span></a></li>
+                <li><a class="icon_box" href="http://www.guokr.com"><img src="/images/sitelogo/guokr.gif"/><span>果壳网</span></a></li>
+                <li><a class="icon_box" href="https://www.douban.com"><img src="/images/sitelogo/douban.gif"/><span>豆瓣</span></a></li>
+                <li><a class="icon_box" href="http://huaban.com"><img src="/images/sitelogo/huaban.gif"/><span>花瓣</span></a></li>
+                <li><a class="icon_box" href="http://www.cnbeta.com"><img src="/images/sitelogo/cnbeta.gif"/><span>cnBeta</span></a></li>
+            </ul>
+        </div>
+        <div class="nav_list list1">
+            <div class="clearfix title_bar">
+                <span class="fl title">学术 · 文献 · 期刊 · 基金 · 专利 · 标准</span>
+                <div class="fl line_hr"></div>
+            </div>
+            <div class="category">
+                <div class="type video"><a href="more/xueshu.html">学术</a></div>
+                <ul>
+                    <li><a href="http://xueshu.baidu.com">百度学术</a></li>
+<li><a href="https://scholar.google.com.hk">谷歌学术</a></li>
+<li><a href="http://www.cnki.net">中国知网</a></li>
+<li><a href="http://www.wanfangdata.com.cn">万方数据</a></li>
+<li><a href="http://en.wikipedia.org">维基百科</a></li>
+<li><a href="http://www.cqvip.com">维普网</a></li>
+<li><a href="http://www.blyun.com">百链</a></li>
+</ul>
+<a href="more/xueshu.html" class="more">更多 &raquo;</a></div>
+
+<div class="category"><div class="type news"><a href="more/wenxian.html">文献</a></div>
+<ul>
+<li><a href="http://isiknowledge.com/wos">SCI</a></li>
+<li><a href="http://www.engineeringvillage.com">EI</a></li>
+<li><a href="http://www.sciencedirect.com">Elsevier</a></li>
+<li><a href="http://ieeexplore.ieee.org">IEEE</a></li>
+<li><a href="https://link.springer.com">Springer</a></li>
+<li><a href="http://arxiv.org">arXiv</a></li>
+<li><a href="http://www3.interscience.wiley.com">Wiley</a></li>
+</ul>
+<a href="more/wenxian.html" class="more">更多 &raquo;</a></div>
+
+<div class="category"><div class="type war"><a href="more/qikan.html">期刊</a></div>
+<ul>
+<li><a href="http://pubs.acs.org">ACS</a></li>
+<li><a href="http://www.sciencemag.org">Science</a></li>
+<li><a href="http://www.nature.com">Nature</a></li>
+<li><a href="http://pubs.rsc.org">RSC</a></li>
+<li><a href="http://www.aps.org">APS</a></li>
+<li><a href="http://iopscience.iop.org">IOP</a></li>
+<li><a href="http://ieeexplore.ieee.org">IEEE</a></li>
+</ul>
+<a href="more/qikan.html" class="more">更多 &raquo;</a></div>
+
+<div class="category"><div class="type music"><a href="more/jijin.html">基金</a></div>
+<ul>
+<li><a href="http://www.csc.edu.cn">国家留学网</a></li>
+<li><a href="http://www.nsfc.gov.cn">国家基金委</a></li>
+<li><a href="http://www.1000plan.org">千人计划</a></li>
+<li><a href="http://www.chinatorch.gov.cn">火炬计划</a></li>
+<li><a href="http://www.cutech.edu.cn/cn/kyjj/gdxxbsdkyjj/A010301index_1.htm">博士基金</a></li>
+<li><a href="http://www.973.gov.cn">973计划</a></li>
+<li><a href="http://www.863.gov.cn">863计划</a></li>
+</ul>
+<a href="more/jijin.html"class="more">更多&raquo;</a></div>
+
+<div class="category"><div class="type game"><a href="more/zhuanli.html">专利</a></div>
+<ul>
+<li><a href="http://so.5ipatent.com">佰腾专利</a></li>
+<li><a href="https://www.google.com.hk/?tbm=pts">谷歌专利</a></li>
+<li><a href="http://www.soopat.com">SooPAT</a></li>
+<li><a href="http://www.sipo.gov.cn">知识产权局</a></li>
+<li><a href="http://search.cnipr.com">专利服务平台</a></li>
+<li><a href="http://zhuanli.baidu.com">百度专利</a></li>
+<li><a href="http://www.epo.org/index.html">欧洲专利</a></li>
+</ul>
+<a href="more/zhuanli.html"class="more">更多&raquo;</a></div>
+
+<div class="category"><div class="type novel"><a href="more/biaozhun.html">标准</a></div>
+<ul>
+<li><a href="http://www.standardcn.com">标准网</a></li>
+<li><a href="http://www.zhaobz.com">找标准</a></li>
+<li><a href="http://www.bzfxw.com">标准分享</a></li>
+<li><a href="http://www.zjsis.cn">国家标准网</a></li>
+<li><a href="http://www.chinabzw.com">中国标准网</a></li>
+<li><a href="http://cx.spsp.gov.cn">国标查询</a></li>
+<li><a href="http://www.csres.com">工标网</a></li>
+</ul>
+<a href="more/biaozhun.html"class="more">更多&raquo;</a></div></div>
+
+<div class="nav_list list1"><div class="clearfix title_bar">
+<span class="fl title">购物 · 团购 · 银行 · 社区</span>
+<div class="fl line_hr"></div></div>
+
+<div class="category"><div class="type shopping"><a href="more/gouwu.html">购物</a></div>
+<ul>
+<li><a href="https://www.taobao.com">淘宝</a>&#8226;<a href="https://www.tmall.com">天猫</a></li>
+<li><a href="https://www.jd.com">京东商城</a></li>
+<li><a href="https://www.suning.com">苏宁易购</a></li>
+<li><a href="https://www.amazon.cn/">亚马逊</a></li>
+<li><a href="http://www.dangdang.com">当当网</a></li>
+<li><a href="http://www.vancl.com">蘑菇街</a></li>
+<li><a href="https://www.zhe800.com/">折800</a></li>
+<li><a href="http://vip.com">唯品会</a></li>
+</ul>
+<a href="more/gouwu.html" class="more">更多 &raquo;</a></div>
+
+<div class="category"><div class="type group"><a href="more/tuan.html">团购</a></div>
+<ul>
+<li><a href="http://meituan.com/">美团</a></li>
+<li><a href="http://www.jumei.com/">聚美优品</a></li>
+<li><a href="http://www.nuomi.com/">糯米网</a></li>
+<li><a href="http://www.55tuan.com/">窝窝团</a></li>
+<li><a href="http://www.gaopeng.com">高朋网</a></li>
+<li><a href="http://www.lashou.com/">拉手网</a></li>
+<li><a href="http://ju.taobao.com/">聚划算</a></li>
+</ul>
+<a href="more/tuan.html" class="more">更多 &raquo;</a></div>
+
+<div class="category"> 
+<div class="type bank"><a href="more/yinhang.html">银行</a></div><ul>
+<li><a href="http://www.icbc.com.cn/">工商银行</a></li>
+<li><a href="http://www.ccb.com/">建设银行</a></li>
+<li><a href="http://www.abchina.com/">农业银行</a></li>
+<li><a href="http://www.cmbchina.com/">招商银行</a></li>
+<li><a href="http://www.boc.cn/">中国银行</a></li>
+<li><a href="http://www.bankcomm.com/">交通银行</a></li>
+<li><a href="http://www.alipay.com/">支付宝</a></li>
+</ul><a href="more/yinhang.html" class="more">更多 &raquo;</a>
+</div>
+<div class="category"> 
+<div class="type community"><a href="more/shequ.html">社区</a></div><ul>
+<li><a href="http://www.tianya.cn/">天涯社区</a></li>
+<li><a href="http://www.mop.com/">猫扑</a></li>
+<li><a href="http://qzone.qq.com/">QQ空间</a></li>
+<li><a href="http://www.renren.com/">人人网</a></li>
+<li><a href="http://tieba.baidu.com/">百度贴吧</a></li>
+<li><a href="http://weibo.com/">新浪微博</a></li>
+<li><a href="http://t.qq.com/">腾讯微博</a></li>
+</ul><a href="more/shequ.html" class="more">更多 &raquo;</a>
+</div>
+    </div>
+<div class="nav_list list1">
+<div class="clearfix title_bar">
+            <span class="fl title">财经 · 汽车 · 电脑 · 邮箱</span>
+<div class="fl line_hr"></div>
+        </div>
+<div class="category"> 
+<div class="type financial"><a href="more/gupiao.html">财经</a></div><ul>
+<li><a href="http://www.eastmoney.com/">东方财富</a></li>
+<li><a href="http://finance.sina.com.cn/">新浪财经</a></li>
+<li><a href="http://www.jrj.com.cn/">金融界</a></li>
+<li><a href="http://www.1234567.com.cn/">天天基金</a></li>
+<li><a href="http://www.stockstar.com/">证券之星</a></li>
+<li><a href="http://business.sohu.com/">搜狐财经</a></li>
+<li><a href="http://finance.qq.com/">腾讯财经</a></li>
+</ul><a href="more/gupiao.html" class="more">更多 &raquo;</a>
+</div>
+<div class="category"> 
+<div class="type car"><a href="more/qiche.html">汽车</a></div><ul>
+<li><a href="http://www.autohome.com.cn/">汽车之家</a></li>
+<li><a href="http://auto.sina.com.cn/">新浪汽车</a></li>
+<li><a href="http://www.pcauto.com.cn/">太平洋汽车</a></li>
+<li><a href="http://chexian.sinosig.com/">阳光车险</a></li>
+<li><a href="http://baoxian.taobao.com/auto/index.htmll">淘宝车险</a></li>
+<li><a href="http://list.tmall.com/search_product.html?cat=50029835">汽车用品</a></li>
+<li><a href="http://www.bitauto.com/">易车网</a></li>
+</ul><a href="more/qiche.html" class="more">更多 &raquo;</a>
+</div>
+<div class="category"> 
+<div class="type digital"><a href="more/shuma.html">电脑</a></div><ul>
+<li><a href="http://www.zol.com.cn/">中关村在线</a></li>
+<li><a href="http://www.ithome.com/">IT之家</a></li>
+<li><a href="http://www.pconline.com.cn/">太平洋电脑</a></li>
+<li><a href="http://3c.tmall.com/">天猫数码</a></li>
+<li><a href="http://pan.baidu.com">百度网盘</a></li>
+<li><a href="http://www.pcpop.com/">泡泡网</a></li>
+<li><a href="http://www.360.com/">360安全</a></li>
+</ul><a href="more/shuma.html" class="more">更多 &raquo;</a>
+</div>
+<div class="category"> 
+<div class="type mail"><a href="more/mail.html">邮箱</a></div><ul>
+<li><a href="http://email.163.com/">163邮箱</a></li>
+<li><a href="http://www.126.com/">126邮箱</a></li>
+<li><a href="http://mail.10086.cn/">139邮箱</a></li>
+<li><a href="http://mail.sina.com.cn/">新浪邮箱</a></li>
+<li><a href="http://mail.qq.com/">QQ邮箱</a></li>
+<li><a href="http://www.hotmail.com/">Hotmail</a></li>
+<li><a href="http://gmail.google.com/">Gmail</a></li>
+</ul><a href="more/mail.html" class="more">更多 &raquo;</a>
+</div>
+    </div>
+<div class="nav_list list1">
+<div class="clearfix title_bar">
+            <span class="fl title">体育 · 旅游 · 生活 · 酷站</span>
+<div class="fl line_hr"></div>
+        </div>
+<div class="category"> 
+<div class="type sports"><a href="more/tiyu.html">体育</a></div><ul>
+<li><a href="http://sports.sina.com.cn/">新浪体育</a></li>
+<li><a href="http://sports.sohu.com/">搜狐体育</a></li>
+<li><a href="http://sports.cntv.cn/">CNTV体育</a></li>
+<li><a href="http://www.hoopchina.com/">虎扑体育</a></li>
+<li><a href="http://sports.163.com/">网易体育</a></li>
+<li><a href="http://china.nba.com/">NBA中文</a></li>
+<li><a href="http://v.6164.com/sport/">体育直播</a></li>
+</ul><a href="more/tiyu.html" class="more">更多 &raquo;</a>
+</div>
+<div class="category"> 
+<div class="type tour"><a href="more/lvyou.html">旅游</a></div><ul>
+<li><a href="http://ctrip.com">携程旅行网</a></li>
+<li><a href="http://travel.elong.com/hotel/">艺龙酒店</a></li>
+<li><a href="http://www.17u.cn">同程网</a></li>
+<li><a href="http://www.7daysinn.cn/">七天连锁酒店</a></li>
+<li><a href="http://www.mangocity.com/">芒果网</a></li>
+<li><a href="http://www.tuniu.com/">途牛旅游</a></li>
+<li><a href="http://trip.taobao.com/?">淘宝旅行</a></li>
+</ul><a href="more/lvyou.html" class="more">更多 &raquo;</a>
+</div>
+<div class="category"> 
+<div class="type house"><a href="more/shenghuo.html">生活</a></div><ul>
+<li><a href="http://www.ganji.com/">赶集网</a></li>
+<li><a href="http://www.58.com/">58同城</a></li>
+<li><a href="http://www.baixing.com/">百姓网</a></li>
+<li><a href="http://www.soufun.com/">搜房网</a></li>
+<li><a href="http://jia.tmall.com/">天猫家装</a></li>
+<li><a href="http://www.jxdyf.com">金象大药房</a></li>
+<li><a href="http://www.zhaopin.com/">智联招聘</a></li>
+</ul><a href="more/shenghuo.html" class="more">更多 &raquo;</a>
+</div>
+<div class="category"> 
+    <div class="type coolSite"><a href="more/cool.html">酷站</a></div><ul>
+    <li><a href="http://www.leiphone.com/">雷锋网</a></li>
+    <li><a href="http://36kr.com/">36氪</a></li>
+    <li><a href="http://www.iheima.com/">i黑马</a></li>
+    <li><a href="http://www.u148.net/">有意思吧</a></li>
+    <li><a href="http://www.huxiu.com/">虎嗅网</a></li>
+    <li><a href="http://www.404le.com/others/ui/">设计师</a></li>
+    <li><a href="http://www.dgtle.com/">数字尾巴</a></li>
+    </ul><a href="more/cool.html" class="more">更多 &raquo;</a>
+</div>
+
+</div>
+</div>
+    <div class="footer">
+        <p>2018 &copy; 学术导航v1.0，科研人专属的网址导航.</p>
+        <div class="scroll" id="scroll" style="display:none;">TOP</div>
+        <script src="/js/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(
+                function(){
+                    showScroll();
+                    function showScroll(){
+                        $(window).scroll(
+                            function(){
+                                var scrollValue=$(window).scrollTop();
+                                scrollValue>100?$('div[class=scroll]').fadeIn():$('div[class=scroll]').fadeOut()
+                            }
+                        );
+                        $('#scroll').click(
+                            function(){
+                                $("html,body").animate({scrollTop:0},200)
+                            }
+                        )
+                    }
+                }
+            )
+        </script>
+    </div>
+    <div style="display:none"></div>
+    <script type="text/javascript" color="0,153,68" opacity='0.7' zIndex="-2" count="100" src="/js/jquery.js"></script>
+</body>
+</html>
